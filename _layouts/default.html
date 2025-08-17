@@ -1,1 +1,22 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.title }} | {{ site.title }}</title>{%- seo -%}
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="icon" href="/assets/favicon.ico">
+</head><body>
+<header class="site-header"><div class="wrap">
+  <a href="#top" class="brand">{{ site.title }}</a>
+  <nav>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#opening">Opening</a>
+    <a href="#connect">Connect</a>
+    <a class="btn" href="/files/Mingfeng_Shang_CV.pdf">CV</a>
+  </nav>
+</div></header>
+<main id="top" class="container">{{ content }}</main>
+<footer class="site-footer"><div class="wrap">
+  © {{ "now" | date: "%Y" }} {{ site.title }} · {{ site.description }}
+</div></footer>
+</body></html>
 
