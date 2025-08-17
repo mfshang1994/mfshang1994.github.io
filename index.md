@@ -5,7 +5,7 @@ title: Home
 
 # Mingfeng Shang
 Assistant Research Professor, University of Arizona (CATS / AzTI)  
-[Google Scholar](https://scholar.google.com/) · [ORCID](https://orcid.org/) · [LinkedIn](https://www.linkedin.com/) · [CV](/files/Mingfeng_Shang_CV.pdf)
+[Google Scholar](https://scholar.google.com/) · [ORCID](https://orcid.org/) · [LinkedIn](https://www.linkedin.com/) 
 
 I build data-driven and optimization-based tools for **heterogeneous driving behavior**, **mixed C/AV traffic modeling**, and **transportation CPS**.
 
