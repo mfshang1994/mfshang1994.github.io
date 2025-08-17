@@ -9,7 +9,7 @@ title: Home
     <!-- PROFILE CARD (left) -->
     <div class="profile-card">
       <div class="avatar-wrap">
-        <img class="avatar" src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Mingfeng Shang">
+        <img class="avatar" src="{{ '/assets/images/MS_photo.jpg' | relative_url }}" alt="Mingfeng Shang">
       </div>
 
       <h1>Mingfeng Shang</h1>
