@@ -1,1 +1,19 @@
+:root{--w:920px;--gap:22px;--radius:16px}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+a{color:inherit;text-decoration:none} a:hover{text-decoration:underline}
+.container{max-width:var(--w);margin:96px auto 60px;padding:0 16px}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 16px}
+h1{font-size:38px;line-height:1.15;margin:0 0 8px} h2{font-size:26px;margin:28px 0 6px}
+hr{border:0;height:1px;background:#eee;margin:26px 0}
+.section{scroll-margin-top:90px} .lead{font-size:18px;color:#444}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--gap)}
+.card{border:1px solid #eee;border-radius:var(--radius);padding:16px;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.card .meta{font-size:.9rem;color:#6b7280;margin-bottom:6px}
+.card .title{font-weight:600;margin:2px 0 8px}
+.card .links a{margin-right:12px;font-weight:600}
+.site-header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:10}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-weight:700} nav a{margin-left:16px} nav .btn{border:1px solid #111;padding:6px 10px;border-radius:10px}
+.site-footer{border-top:1px solid #eee;padding:18px 0;color:#666}
 
