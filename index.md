@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Mingfeng Shang
-<img src="/assets/images/me.jpg" alt="Mingfeng Shang" style="max-width:200px;border-radius:50%;margin:16px 0;">
+<img src="/assets/images/MS_photo.jpg" alt="Mingfeng Shang" style="max-width:200px;border-radius:50%;margin:16px 0;">
 Assistant Research Professor, University of Arizona (CATS / AzTI)  
 [Google Scholar](https://scholar.google.com/) · [ORCID](https://orcid.org/) · [LinkedIn](https://www.linkedin.com/) 
 
