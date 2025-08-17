@@ -48,5 +48,23 @@ hr{border:0;height:1px;background:#eee;margin:26px 0}
 .profile-card .list li:first-child { border-top:0; }
 .profile-card .icon { width:18px; height:18px; flex:0 0 18px; color:#666; }
 .profile-card a:hover { text-decoration: underline; }
+/* === Two-column layout (card left, content right) === */
+.two-col {
+  display: grid;
+  grid-template-columns: 340px 1fr;  /* left width + flexible right */
+  gap: 32px;
+  align-items: start;
+}
+.sidebar .profile-card { margin: 0; max-width: 100%; } /* full width in sidebar */
+
+/* optional: keep the card visible while scrolling */
+.sidebar.sticky { position: sticky; top: 96px; }
+
+/* mobile: stack */
+@media (max-width: 900px) {
+  .two-col { grid-template-columns: 1fr; }
+  .sidebar { order: -1; }  /* card appears above content */
+}
+
 
 
